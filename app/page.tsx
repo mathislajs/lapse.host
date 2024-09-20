@@ -8,7 +8,7 @@ import { BsOpencollective } from "react-icons/bs";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-[#09090B] text-white flex flex-col" style={{ backgroundImage: 'url("https://d1tz7e6etl7q8r.cloudfront.net/b6spha%2Fpreview%2F60955696%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1726807646&Signature=XlTsMrAjmlsqgBlzKydvImSDelPOYlXTDG8enGJGlYLZlOv~YsSq4ZWRw064xUsHzHdlt3aD1OPVOf49fKRoN0x4yo9iGSDuykAfkTr-ySZXCLmj~A3aL5sDOurnvRkEgsbvn~jusBNdE8~GvZ2CabG4epQ-7HEK2OMiTWhcjFJorCG118dE6-9M3IajrKL3JoXwabQUNxAP0aCsO8FHVGbEAPo8N0ryYBEi3YPU7g2j4kD-rqN1sIiGxjibQbHkKbkHct40zzKTeM4rRv-9jlnEcx-MN05laCO0qQmG8OsG6EDpEdP0V7TTHLK7-CTKwuFfWjfylDKYIbVc2xv6aw__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ")', backgroundSize: 'cover' }}>
+    <div className="min-h-screen bg-[#09090B] text-white flex flex-col" style={{ backgroundImage: 'url("https://dxeul8wagn2zr.cloudfront.net/g7jsha%2Fpreview%2F60955795%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1726808136&Signature=cRT9ad~HnfcMMIruCiysZ7Ioeh195f2JgVtJnPw9CapxdUWEMRWfsx6yV2SYswI94xHRdIweMeu0xRhyB6IAb4BI1RNoy0D7jV99X~r6XtVAR7BIGgcwq5xIq~YKEFJri282poaZmfWDYdg8f3n1t-xcRuxLBNj2pZXvmGKhrus6wJy9-Qqx781pqdO6zZEOTyJIzppr6CH70W7hKv0EOR6c38G-N7U2mZJ9Dp4cjTGxR00SZGenGveO29Xw6XrV~Li2VLID39gVeI30-PkjhlZxe5AEarcN8CXdM0Y0LVmgzauQ40BYGYPmdRX6mPhqxWboyvLkYp7SDaCQ0TzLGA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ")', backgroundSize: 'cover' }}>
       <header className="bg-black border-b border-gray-800">
         <nav className="flex justify-between items-center max-w-6xl mx-auto py-3 px-4">
           <div className="flex items-center space-x-3">
