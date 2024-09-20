@@ -8,7 +8,7 @@ import { BsOpencollective } from "react-icons/bs";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-[#09090B] text-white flex flex-col" style={{ backgroundImage: 'url("https://dxeul8wagn2zr.cloudfront.net/g7jsha%2Fpreview%2F60955795%2Fmain_large.png?response-content-disposition=inline%3Bfilename%3D%22main_large.png%22%3B&response-content-type=image%2Fpng&Expires=1726808136&Signature=cRT9ad~HnfcMMIruCiysZ7Ioeh195f2JgVtJnPw9CapxdUWEMRWfsx6yV2SYswI94xHRdIweMeu0xRhyB6IAb4BI1RNoy0D7jV99X~r6XtVAR7BIGgcwq5xIq~YKEFJri282poaZmfWDYdg8f3n1t-xcRuxLBNj2pZXvmGKhrus6wJy9-Qqx781pqdO6zZEOTyJIzppr6CH70W7hKv0EOR6c38G-N7U2mZJ9Dp4cjTGxR00SZGenGveO29Xw6XrV~Li2VLID39gVeI30-PkjhlZxe5AEarcN8CXdM0Y0LVmgzauQ40BYGYPmdRX6mPhqxWboyvLkYp7SDaCQ0TzLGA__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ")', backgroundSize: 'cover' }}>
+    <div className="min-h-screen bg-[#09090B] text-white flex flex-col" style={{ backgroundImage: 'url("https://pouch.jumpshare.com/preview/6CMvo7F2hr560JIkYUxNowQFA6HKd8VD4-jZlQcg3tzW8T0iqwE2tHu-ZRR_1kssxKo1emypvWBvkBa8Al7qhvDown1K6_I10A2uPl00EPA")', backgroundSize: 'cover' }}>
       <header className="bg-black border-b border-gray-800">
         <nav className="flex justify-between items-center max-w-6xl mx-auto py-3 px-4">
           <div className="flex items-center space-x-3">
