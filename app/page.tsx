@@ -5,6 +5,9 @@ import { BsDiscord } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsOpencollective } from "react-icons/bs";
+import { SiSharex } from "react-icons/si";
+import { FaFaceKiss } from "react-icons/fa6";
+import { BiSolidCustomize } from "react-icons/bi";
 
 export default function LandingPage() {
   return (
@@ -13,20 +16,19 @@ export default function LandingPage() {
         <nav className="flex justify-between items-center max-w-6xl mx-auto py-3 px-4">
           <div className="flex items-center space-x-3">
             <Link href="/" className="flex items-center space-x-3">
-
               <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect id="Rectangle 14" x="16.6777" y="-1" width="25" height="25" rx="2.5" transform="rotate(45 16.6777 -1)" fill="white"/>
 </svg>
             </Link>
             <div className="mx-4"></div>
             <ul className="flex space-x-3 text-sm">
-              <li><Link href="/pricing" className="hover:text-gray-300 transition-colors">Pricing</Link></li>
-              <li><Link href="https://docs.lapse.host/integrations" className="hover:text-gray-300 transition-colors">Integrations</Link></li>
+              <li><Link href="/pricing" className="text-gray-400 hover:text-gray-200">Pricing</Link></li>
+              <li><Link href="https://docs.lapse.host/integrations" className="text-gray-400 hover:text-gray-200">Integrations</Link></li>
             </ul>
           </div>
           <div className="flex justify-center space-x-4">
             <Link target="_blank" href="https://lapse.canny.io/">
-              <Button size="sm" className="bg-black text-white hover:bg-gray-900 border border-gray-800">
+              <Button size="sm" className="bg-black text-white hover:bg-zinc-900 border border-gray-800">
                 Feedback
               </Button>
             </Link>
@@ -50,9 +52,9 @@ export default function LandingPage() {
             service.
           </h1>
           <p className="text-lg text-gray-400 mb-8 mx-auto max-w-2xl">
-            lapse provides a high-quality image hosting platform for individuals, featuring a variety of integrations, including ShareX, as well as customizable sub/domains and additional options to enhance your experience.
+            lapse provides a high-quality image hosting platform for individuals, featuring a variety of integrations, including <SiSharex className="inline-block mr-1" />ShareX, as well as <BiSolidCustomize className="inline-block mr-1" />customizable sub/domains and <FaFaceKiss className="inline-block mr-0" /> additional options to enhance your experience.
           </p>
-          <Link href="/dashboard">
+          <Link href="https://manage.lapse.host/">
             <Button size="lg" className="bg-white text-black font-bold hover:bg-gray-200 border border-gray-500">
               Get Started
               <svg className="inline-block w-4 h-4 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -61,7 +63,7 @@ export default function LandingPage() {
             </Button>
           </Link>
           <Link href="https://docs.lapse.host">
-            <Button size="lg" className="bg-black text-white font-bold hover:bg-gray-900 border border-gray-800 ml-4">
+            <Button size="lg" className="bg-black text-white font-bold hover:bg-zinc-900 border border-gray-800 ml-4">
               Features
             </Button>
           </Link>
@@ -82,27 +84,27 @@ export default function LandingPage() {
           <span className="text-gray-700">•</span>
             <Link href="/privacy-policy" className="text-gray-400 hover:text-gray-300">Privacy Policy</Link>
             <span className="text-gray-700">•</span>
-            <Link href="#" className="text-gray-400 hover:text-gray-300">Terms</Link>
+            <Link href="/terms" className="text-gray-400 hover:text-gray-300">Terms</Link>
             <span className="text-gray-700">•</span>
             <Link target="_blank" href="#" className="text-gray-400 hover:text-gray-300">Security</Link>
           </div>
           <div className="flex justify-center space-x-3 mb-4">
-          <Link href="/status" className="text-gray-400 hover:text-gray-300">email@lapse.host</Link>
+          <Link href="mailto:email@lapse.host" className="text-gray-400 hover:text-gray-300">email@lapse.host</Link>
           </div>
           <div className="flex justify-center space-x-4 mb-4">
-            <Link target="_blank" href="https://x.com/lapsehost" className="text-gray-400 hover:text-gray-300">
+            <Link target="_blank" href="/discord" className="text-gray-400 hover:text-gray-300">
               <BsDiscord className="w-5 h-5" />
             </Link>
-            <Link target="_blank" href="https://x.com/lapsehost" className="text-gray-400 hover:text-gray-300">
+            <Link target="_blank" href="/x" className="text-gray-400 hover:text-gray-300">
               <BsTwitterX className="w-5 h-5" />
             </Link>
-            <Link target="_blank" href="https://github.com/lapsehost" className="text-gray-400 hover:text-gray-300">
+            <Link target="_blank" href="/github" className="text-gray-400 hover:text-gray-300">
               <BsGithub className="w-5 h-5" />
             </Link>
-            <Link target="_blank" href="https://x.com/lapsehost" className="text-gray-400 hover:text-gray-300">
+            <Link target="_blank" href="/linkedin" className="text-gray-400 hover:text-gray-300">
               <BsLinkedin className="w-5 h-5" />
             </Link>
-            <Link target="_blank" href="https://opencollective.com/lapse" className="text-gray-400 hover:text-gray-300">
+            <Link target="_blank" href="/opencollective" className="text-gray-400 hover:text-gray-300">
               <BsOpencollective className="w-5 h-5" />
             </Link>
           </div>
