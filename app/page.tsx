@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { BsTwitterX } from "react-icons/bs";
 import { BsDiscord } from "react-icons/bs";
@@ -8,6 +7,19 @@ import { BsOpencollective } from "react-icons/bs";
 import { SiSharex } from "react-icons/si";
 import { FaFaceKiss } from "react-icons/fa6";
 import { BiSolidCustomize } from "react-icons/bi";
+import { Button } from "@/components/ui/button"
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+
 
 export default function LandingPage() {
   return (
@@ -22,22 +34,33 @@ export default function LandingPage() {
             </Link>
             <div className="mx-4"></div>
             <ul className="flex space-x-3 text-sm">
-              <li><Link href="/pricing" className="text-gray-400 hover:text-gray-200">Pricing</Link></li>
-              <li><Link href="https://docs.lapse.host/integrations" className="text-gray-400 hover:text-gray-200">Integrations</Link></li>
+              <li><Link href="https://guide.lapse.host/integrations" className="text-gray-400 hover:text-gray-200">Integrations</Link></li>
+              <li><Link target="_blank" href="https://converters.lapse.host/" className="text-gray-400 hover:text-gray-200">File Converters</Link></li>
+              <li><Link target="_blank" href="https://lapse.canny.io/" className="text-gray-400 hover:text-gray-200">Feedback</Link></li>
             </ul>
             <div className="flex items-center space-x-3">
         </div>
-        <div className="flex justify-center space-x-4 mx-auto">
-        <span className="text-sm text-gray-400">⚠️ lapse is still under development. You may encounter errors.</span>
-        </div>
+
+
           </div>
           <div className="flex justify-center space-x-4">
-            <Link target="_blank" href="https://lapse.canny.io/">
-              <Button size="sm" className="bg-black text-white hover:bg-zinc-900 border border-gray-800">
-                Feedback
-              </Button>
-            </Link>
-            <Link href="/dashboard">
+          <Dialog>
+      <DialogTrigger asChild>
+      <Button size="sm" className="bg-black text-white hover:bg-zinc-900 border border-gray-800">⭐ Prime</Button>
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[425px]">
+        <DialogHeader>
+          <DialogTitle>Prime Subscription</DialogTitle>
+          <DialogDescription>
+            text
+          </DialogDescription>
+        </DialogHeader>
+        <DialogFooter>
+          <Button type="submit">Upgrade</Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+            <Link href="https://manage.lapse.host/">
               <Button size="sm" className="bg-white text-black hover:bg-gray-200 border border-gray-500">
                 Login
               </Button>
@@ -67,7 +90,7 @@ export default function LandingPage() {
               </svg>
             </Button>
           </Link>
-          <Link href="https://docs.lapse.host">
+          <Link href="https://guide.lapse.host/features">
             <Button size="lg" className="bg-black text-white font-bold hover:bg-zinc-900 border border-gray-800 ml-4">
               Features
             </Button>
