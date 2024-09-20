@@ -11,7 +11,7 @@ import { BiSolidCustomize } from "react-icons/bi";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-[#09090B] text-white flex flex-col" style={{ backgroundImage: 'url("https://pouch.jumpshare.com/preview/6CMvo7F2hr560JIkYUxNowQFA6HKd8VD4-jZlQcg3tzW8T0iqwE2tHu-ZRR_1kssxKo1emypvWBvkBa8Al7qhvDown1K6_I10A2uPl00EPA")', backgroundSize: 'cover' }}>
+    <div className="min-h-screen bg-[#09090B] text-white flex flex-col" style={{ backgroundImage: 'url("https://pouch.jumpshare.com/preview/la3OERxfFo_rZu3dvXHwoBCwUpM4uJKnvFQgKwBMUmvf9u16uXRVLUP09iYy5sQpnlH0egcO4MjoQU0iHUykOYlAoSIcgeNbJzXdbxJJuts")', backgroundSize: 'cover' }}>
       <header className="bg-black border-b border-gray-800">
         <nav className="flex justify-between items-center max-w-6xl mx-auto py-3 px-4">
           <div className="flex items-center space-x-3">
@@ -25,6 +25,11 @@ export default function LandingPage() {
               <li><Link href="/pricing" className="text-gray-400 hover:text-gray-200">Pricing</Link></li>
               <li><Link href="https://docs.lapse.host/integrations" className="text-gray-400 hover:text-gray-200">Integrations</Link></li>
             </ul>
+            <div className="flex items-center space-x-3">
+        </div>
+        <div className="flex justify-center space-x-4 mx-auto">
+        <span className="text-sm text-gray-400">⚠️ lapse is still under development. You may encounter errors.</span>
+        </div>
           </div>
           <div className="flex justify-center space-x-4">
             <Link target="_blank" href="https://lapse.canny.io/">
